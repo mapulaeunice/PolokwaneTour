@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:showIn="@layout/activity_scrolling">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Mall ot the North"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25sp"
+            android:transitionName="myTitle"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:padding="16dp"
+            android:text="This centre is located in one of Polokwane’s most affluent areas, right next to Cycad Estate and walking distance from Bendor Village. It is a mere 3 minute drive from many of Polokwane’s biggest pre-primary, primary and high schools. Located just down the road from Cycad Centre you will find one of Polokwane's biggest office parks. If you are looking for a upmarket convenience centre in Polokwane this is the place to be.
+ADDRESS
+Corner of General maritz and Viljoen street, Polokwane
+SIZE
+5,880 m²
+ANCHOR TENANT/S
+Pick 'n Pay
+OTHER TENANTS
+Pick 'n Pay Liquor, Clicks, Standard Bank, Vodacom, SA Post Office, Wimpy, Fishaways, Girimundo, Steers, Debonairs ,Scooters Pizza, Jason Stander Optometrist, Placècol Skin Care Clinic, Mr. Video, Nitruco Hardware, Cycad Sushi etc.
+CONTACT DETAILS
+Peter Pratt
+TEL
+015 291 4700
+CONTACT DETAILS EMAIL
+peter@moolmangroup.co.za
+GPS COORDINATES
+S 23° 53' 35.88'' E 29° 28' 22.90''
+
+"
+            />
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

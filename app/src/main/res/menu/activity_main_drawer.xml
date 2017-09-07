@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/accomodation"
+            android:icon="@drawable/ic_local_hotel_black_24dp"
+            android:title="Accomodations"/>
+" />
+        <item
+            android:id="@+id/entertainment"
+            android:icon="@drawable/ic_folder_special_black_24dp"
+            android:title="Entertainments" />
+        <item
+            android:id="@+id/shopping"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:title="Shopping" />
+        <item
+            android:id="@+id/attraction"
+            android:icon="@drawable/ic_local_florist_black_24dp"
+            android:title="Attractions" />
+
+    </group>
+
+</menu>
